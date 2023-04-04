@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65deb24c-e8d8-4ddb-af76-26e93dac0ee9" name="Changes" comment="config de banco">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurafood/pagamentos/PagamentosApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurafood/pagamentos/config/Configuracao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurafood/pagamentos/controller/PagamentoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurafood/pagamentos/dto/PagamentoDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurafood/pagamentos/model/Pagamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurafood/pagamentos/model/Status.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurafood/pagamentos/repository/PagamentoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurafood/pagamentos/service/PagamentoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V001__create-table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alurafood/pagamentos/PagamentosApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="65deb24c-e8d8-4ddb-af76-26e93dac0ee9" name="Changes" comment="config de banco" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +60,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Projetos pessoais/pagamentos/Pagamento"
+    "last_opened_file_path": "D:/Projetos pessoais/pagamentos"
   }
 }]]></component>
   <component name="RecentsManager">
