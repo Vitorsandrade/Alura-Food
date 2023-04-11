@@ -55,7 +55,6 @@ public class PedidoController {
         return ResponseEntity.ok(dto);
     }
 
-
     @PutMapping("/{id}/pago")
     public ResponseEntity<Void> aprovaPagamento(@PathVariable @NotNull Long id) {
         service.aprovaPagamentoPedido(id);
