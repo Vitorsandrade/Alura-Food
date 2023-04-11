@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
+//anotação para se comunicar com eureka
 @EnableEurekaClient
 public class PedidosApplication {
 
