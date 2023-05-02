@@ -5,6 +5,7 @@ import br.com.alurafood.pagamentos.service.PagamentoService;
 import com.theokanning.openai.OpenAiService;
 import com.theokanning.openai.completion.CompletionChoice;
 import com.theokanning.openai.completion.CompletionRequest;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -55,6 +56,12 @@ public class PagamentoController {
     public ResponseEntity<PagamentoDto> remover(@PathVariable @NotNull Long id) {
         service.excluirPagamento(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @PatchMapping("/{id}/confirmar")
+    @CircuitBreaker(name = "atualizaPedido", fallbackMethod = "")
+    public void confirmarPagamento(@PathVariable @NotNull Long id){
+        service.confirmarPagamento(id);
     }
 
 }
